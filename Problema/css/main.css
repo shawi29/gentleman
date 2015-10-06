@@ -1,0 +1,64 @@
+header{
+    background: #151515;
+    color: white;
+}
+
+nav{
+    padding-top: 2%
+}
+nav a{
+    color: #BDBDBD;
+    font-size: 0.8em;
+    padding-right: 5%;
+}
+
+nav a:hover{
+    color: #FF0040;
+}
+
+.banner{
+    background-image: url("../img/header.png");
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section:nth-child(2) .col-3 h2{
+    font-size: 2em;
+    line-height: 1em;
+}
+
+button{
+    margin-top: 10%;
+    padding: 2%;
+}
+
+.photo-grid{
+    background-image: url("../img/main-pic.png");
+    height: 260px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h3{
+    padding-bottom: 5%;
+}
+
+.btn-load{
+    padding: 1%;
+    background-color: gray;
+    color: white;
+}
+
+.btn-follow{
+    padding: 2%;
+    background-color: gray;
+    color: white;
+    position: relative;
+    font-size: 0.8em;
+    top: 40px;
+}
+
+h4{
+    font-size: 1.3em;
+}
